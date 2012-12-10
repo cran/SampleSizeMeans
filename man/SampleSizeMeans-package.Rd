@@ -7,8 +7,8 @@
 \tabular{ll}{
 Package: \tab SampleSizeMeans\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2009-12-16\cr
+Version: \tab 1.1\cr
+Date: \tab 2012-12-10\cr
 License: \tab GLP (version 2 or later)\cr
 URL: \tab \url{http://www.medicine.mcgill.ca/epidemiology/Joseph/Methodological-Publications-Bayesian-Sample-Size.html}\cr
 }

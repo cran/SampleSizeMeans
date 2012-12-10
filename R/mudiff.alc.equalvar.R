@@ -20,7 +20,7 @@ function(len,alpha,beta,n01,n02,level=0.95,equal=TRUE)
         found.lower.bound <- TRUE
         n1 <- 0
       }
-      n2 <- ifelse(equal,n1+n01-n02,n1)
+      n2 <- ifelse(!equal,n1+n01-n02,n1)
       n2 <- max(0,n2)
       ndot <- n1+n2
       under.root <- 2*beta*(1/(n1+n01)+1/(n2+n02))/(2*alpha+ndot)
@@ -38,7 +38,7 @@ function(len,alpha,beta,n01,n02,level=0.95,equal=TRUE)
       }
     }
     n1[direction == 1] <- n1 + 1
-    n2 <- ifelse(equal,n1+n01-n02,n1)
+    n2 <- ifelse(!equal,n1+n01-n02,n1)
     n2 <- max(0,n2)
 
     c(n1,n2)
