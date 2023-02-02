@@ -1,5 +1,5 @@
-bb6a50cded73492097f338db394016ae *DESCRIPTION
-87e08208280269773b24a668b65ed656 *NAMESPACE
+6aeb61b7d3c39369320661b66095fd1a *DESCRIPTION
+b80a1b18d00a056b99c136a80d303678 *NAMESPACE
 1db33ee60a4b5957dd421c22eab1e5e8 *R/mu.acc.R
 6ef1c4ab965e2de2b89c92ed0bf6aaaa *R/mu.alc.R
 33e6514b00ff42b3d58b3e38dd06fcd2 *R/mu.freq.R
@@ -28,7 +28,7 @@ f18b1543ed97321d39f107fc165fbd97 *R/mudiff.modwoc.equalvar.R
 9b1a21440fd41b718693b7edc4bba519 *R/quadsol.R
 8362878b2448e8e17f25231f97e95a43 *R/rgg.R
 ee799250edee7061089156d7580ca884 *R/rvgg.R
-fa3c093e1e9aec48a509d6ccf60217f2 *man/SampleSizeMeans-package.Rd
+4bdcadb6901435ff1a41a5f1296e5b0d *man/SampleSizeMeans-package.Rd
 91b16c8e3d5a204e103710f17eab2d73 *man/mu.acc.Rd
 b67b714175630acf0393c37594963e5d *man/mu.alc.Rd
 5c7cf3a91fa9c0ad61b52c5f31ddff9c *man/mu.freq.Rd
@@ -38,9 +38,9 @@ b6d56f01fda265165ec6ebd18e8289da *man/mu.mblalc.Rd
 0f061665dd0e8174c08d3b4078975924 *man/mu.mblmodwoc.Rd
 f5851f0aca3f41bcf35da9d4a79975c4 *man/mu.modwoc.Rd
 014f90ba97ea148341ecf6dc7d12228b *man/mu.varknown.Rd
-f59b4b9f7bc5caa60882a24d720f71c8 *man/mudiff.acc.Rd
+6a5b24a2055bcc3088c50a8c067a05ac *man/mudiff.acc.Rd
 7b4b7347761baa708b257e5adf816018 *man/mudiff.acc.equalvar.Rd
-701cb8572e3788c981dc2f1897eb3952 *man/mudiff.alc.Rd
+55e3dc182cf348d72a8c54876112c324 *man/mudiff.alc.Rd
 6363accca613c988a988cd14e9df1f4b *man/mudiff.alc.equalvar.Rd
 a1b197bf3fe429468c0ef73aeaa0c41b *man/mudiff.freq.Rd
 21737e9a828c777a02711e15beacfeb6 *man/mudiff.mbl.varknown.Rd
@@ -48,8 +48,8 @@ a1b197bf3fe429468c0ef73aeaa0c41b *man/mudiff.freq.Rd
 0f9b3c2e755736c7fc749ac3e62acf4d *man/mudiff.mblacc.equalvar.Rd
 731fe6cf47fbe56a05225bbfd1455b61 *man/mudiff.mblalc.Rd
 6556496ec663acd536a758e6db18ecb3 *man/mudiff.mblalc.equalvar.Rd
-dd7c478336246f2089ffab0c3443a8ac *man/mudiff.mblmodwoc.Rd
-12f7b6bdb32f2c84eb770804671b8ecf *man/mudiff.mblmodwoc.equalvar.Rd
-30c3fbf83ffb9b3ccec99552ceae3113 *man/mudiff.modwoc.Rd
-885d1bc7092f25bf87f1de8c92b6ef49 *man/mudiff.modwoc.equalvar.Rd
+ac192e668878e685509201481bdf0085 *man/mudiff.mblmodwoc.Rd
+8203a74869c28bb6ff2b671b5a56490c *man/mudiff.mblmodwoc.equalvar.Rd
+7016589e8d193c1b5ddc77f90d931175 *man/mudiff.modwoc.Rd
+656048828d04c4a9696ef6ca0380a392 *man/mudiff.modwoc.equalvar.Rd
 afaf0031830cec3d159b63b8ff0b6602 *man/mudiff.varknown.Rd

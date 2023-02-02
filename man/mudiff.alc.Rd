@@ -3,7 +3,8 @@
 \title{Bayesian sample size determination for differences in normal means using the Average Length Criterion} 
 \description{The function \code{mudiff.alc} returns the required sample sizes
 to reach a desired posterior credible interval length on average for a fixed coverage probability for the difference between two normal means.}
-\usage{mudiff.alc(len, alpha1, beta1, alpha2, beta2, n01, n02, level = 0.95, equal = TRUE, m = 10000, mcs = 3)}
+\usage{mudiff.alc(len, alpha1, beta1, alpha2, beta2, n01, n02, level = 0.95,
+                  equal = TRUE, m = 10000, mcs = 3)}
 \arguments{
   \item{len}{The desired average length of the posterior credible interval for the difference between the two unknown means}
   \item{alpha1}{First prior parameter of the Gamma density for the precision (reciprocal of the variance) for the first population}

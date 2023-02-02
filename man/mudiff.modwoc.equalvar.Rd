@@ -4,7 +4,8 @@
 \description{The function \code{mudiff.modwoc.equalvar} calculates conservative sample sizes, in the sense that the desired 
 posterior credible interval coverage and length for the difference between two normal means
 are guaranteed over a given proportion of data sets that can arise according to the prior information, when variances are equal.}
-\usage{mudiff.modwoc.equalvar(len, alpha, beta, n01, n02, level = 0.95, worst.level = 0.95, equal = TRUE)}
+\usage{mudiff.modwoc.equalvar(len, alpha, beta, n01, n02, level = 0.95,
+                              worst.level = 0.95, equal = TRUE)}
 \arguments{
   \item{len}{The desired total length of the posterior credible interval for the difference between the two unknown means}
   \item{alpha}{First prior parameter of the Gamma density for the common precision (reciprocal of the variance)}

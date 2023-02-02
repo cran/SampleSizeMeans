@@ -5,7 +5,8 @@
 determine conservative sample sizes, in the sense that the desired posterior credible interval coverage and length 
 for the difference between two normal means are guaranteed 
 over a given proportion of data sets that can arise according to the prior information.}
-\usage{mudiff.mblmodwoc(len, alpha1, beta1, alpha2, beta2, level = 0.95, worst.level = 0.95, m = 50000, mcs = 3)}
+\usage{mudiff.mblmodwoc(len, alpha1, beta1, alpha2, beta2, level = 0.95,
+                        worst.level = 0.95, m = 50000, mcs = 3)}
 \arguments{
   \item{len}{The desired total length of the posterior credible interval for the difference between the two unknown means}
   \item{alpha1}{First prior parameter of the Gamma density for the precision (reciprocal of the variance) for the first population}

@@ -1,1 +1,3 @@
+importFrom("stats", "pf", "pnorm", "pt", "qchisq", "qf", "qnorm", "qt", "rgamma", "rt")
+
 export(mu.acc, mu.alc, mu.freq, mu.mbl.varknown, mu.mblacc, mu.mblalc, mu.mblmodwoc, mu.modwoc, mu.varknown, mudiff.acc, mudiff.acc.equalvar, mudiff.alc, mudiff.alc.equalvar, mudiff.freq, mudiff.mbl.varknown, mudiff.mblacc, mudiff.mblacc.equalvar, mudiff.mblalc, mudiff.mblalc.equalvar, mudiff.mblmodwoc, mudiff.mblmodwoc.equalvar, mudiff.modwoc, mudiff.modwoc.equalvar, mudiff.varknown)

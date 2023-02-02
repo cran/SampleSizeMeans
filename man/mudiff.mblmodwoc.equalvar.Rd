@@ -4,7 +4,8 @@
 \description{The function \code{mudiff.mblmodwoc.equalvar} uses a mixed Bayesian/likelihood approach to
 determine conservative sample sizes, in the sense that the desired posterior credible interval coverage and length 
 for the difference between two normal means are guaranteed over a given proportion of data sets that can arise according to the prior information, when variances are equal.}
-\usage{mudiff.mblmodwoc.equalvar(len, alpha, beta, level = 0.95, worst.level = 0.95, m = 50000, mcs = 3)}
+\usage{mudiff.mblmodwoc.equalvar(len, alpha, beta, level = 0.95,
+                                 worst.level = 0.95, m = 50000, mcs = 3)}
 \arguments{
   \item{len}{The desired total length of the posterior credible interval for the difference between the two unknown means}
   \item{alpha}{First prior parameter of the Gamma density for the common precision (reciprocal of the variance)}
