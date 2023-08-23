@@ -25,13 +25,14 @@ are used for final inferences. Researchers preferring to use the data only for f
 to use the Mixed Bayesian/Likelihood version of the function.}
 \note{The sample size returned by this function is exact.}
 \value{The required sample size given the inputs to the function.}
-\references{Joseph L, Belisle P.\cr
+\references{Joseph L, Bélisle P.\cr
 Bayesian sample size determination for Normal means and differences between Normal means\cr
 The Statistician 1997;46(2):209-226.}
-\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca} and Patrick Belisle}
+\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca} and Patrick Bélisle}
 \seealso{\code{\link{mu.alc}}, \code{\link{mu.modwoc}}, \code{\link{mu.varknown}}, \code{\link{mu.mblacc}}, \code{\link{mu.mblalc}}, \code{\link{mu.mblmodwoc}}, \code{\link{mu.mbl.varknown}}, \code{\link{mu.freq}}, \code{\link{mudiff.acc}}, \code{\link{mudiff.alc}}, \code{\link{mudiff.modwoc}}, \code{\link{mudiff.acc.equalvar}}, \code{\link{mudiff.alc.equalvar}}, \code{\link{mudiff.modwoc.equalvar}}, \code{\link{mudiff.varknown}}, \code{\link{mudiff.mblacc}}, \code{\link{mudiff.mblalc}}, \code{\link{mudiff.mblmodwoc}}, \code{\link{mudiff.mblacc.equalvar}}, \code{\link{mudiff.mblalc.equalvar}}, \code{\link{mudiff.mblmodwoc.equalvar}}, \code{\link{mudiff.mbl.varknown}}, \code{\link{mudiff.freq}}}
 \examples{mu.acc(len=0.2, alpha=2, beta=2, n0=10)}
 \keyword{design}
 \concept{Bayesian sample size}
 \concept{Normal mean}
 \concept{Average Coverage Criterion ACC}
+\encoding{UTF-8}

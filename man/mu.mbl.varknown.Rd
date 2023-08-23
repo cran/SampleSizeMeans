@@ -19,10 +19,10 @@ MBL approaches use the prior information to derive the predictive distribution o
 This approach is intended to satisfy investigators who recognize that prior information is important for planning purposes but prefer to base final inferences only on the data.}
 \note{The sample size returned by this function is exact.}
 \value{The required sample size given the inputs to the function.}
-\references{Joseph L, Belisle P.\cr
+\references{Joseph L, Bélisle P.\cr
 Bayesian sample size determination for Normal means and differences between Normal means\cr
 The Statistician 1997;46(2):209-226.}
-\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca} and Patrick Belisle}
+\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca} and Patrick Bélisle}
 \seealso{\code{\link{mu.mblacc}}, \code{\link{mu.mblalc}}, \code{\link{mu.mblmodwoc}}, \code{\link{mu.varknown}}, \code{\link{mu.acc}}, \code{\link{mu.alc}}, \code{\link{mu.modwoc}}, \code{\link{mu.freq}}, \code{\link{mudiff.mbl.varknown}}, \code{\link{mudiff.mblacc}}, \code{\link{mudiff.mblalc}}, \code{\link{mudiff.mblmodwoc}}, \code{\link{mudiff.mblacc.equalvar}}, \code{\link{mudiff.mblalc.equalvar}}, \code{\link{mudiff.mblmodwoc.equalvar}}, \code{\link{mudiff.varknown}}, \code{\link{mudiff.acc}}, \code{\link{mudiff.alc}}, \code{\link{mudiff.modwoc}}, \code{\link{mudiff.acc.equalvar}}, \code{\link{mudiff.alc.equalvar}}, \code{\link{mudiff.modwoc.equalvar}}, \code{\link{mudiff.freq}}}
 \examples{mu.mbl.varknown(len=0.2, lambda=1/4)}
 \keyword{design}
@@ -30,3 +30,4 @@ The Statistician 1997;46(2):209-226.}
 \concept{Normal mean}
 \concept{Mixed Bayesian/Likelihood  MBL}
 \concept{known variances}
+\encoding{UTF-8}

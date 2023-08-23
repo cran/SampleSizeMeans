@@ -25,10 +25,10 @@ MBL approaches use the prior information to derive the predictive distribution o
 This approach is intended to satisfy investigators who recognize that prior information is important for planning purposes but prefer to base final inferences only on the data.}
 \note{The sample sizes are calculated via Monte Carlo simulations, and therefore may vary from one call to the next.}
 \value{The required sample sizes (n1, n2) for each group given the inputs to the function.}
-\references{Joseph L, Belisle P.\cr
+\references{Joseph L, Bélisle P.\cr
 Bayesian sample size determination for Normal means and differences between Normal means\cr
 The Statistician 1997;46(2):209-226.}
-\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca} and Patrick Belisle}
+\author{Lawrence Joseph \email{lawrence.joseph@mcgill.ca} and Patrick Bélisle}
 \seealso{\code{\link{mudiff.mblalc.equalvar}}, \code{\link{mudiff.mblmodwoc.equalvar}}, \code{\link{mudiff.mblacc}}, \code{\link{mudiff.mblalc}}, \code{\link{mudiff.mblmodwoc}}, \code{\link{mudiff.mbl.varknown}}, \code{\link{mudiff.acc.equalvar}}, \code{\link{mudiff.alc.equalvar}}, \code{\link{mudiff.modwoc.equalvar}}, \code{\link{mudiff.acc}}, \code{\link{mudiff.alc}}, \code{\link{mudiff.modwoc}}, \code{\link{mudiff.varknown}}, \code{\link{mudiff.freq}}, \code{\link{mu.mblacc}}, \code{\link{mu.mblalc}}, \code{\link{mu.mblmodwoc}}, \code{\link{mu.mbl.varknown}}, \code{\link{mu.acc}}, \code{\link{mu.alc}}, \code{\link{mu.modwoc}}, \code{\link{mu.varknown}}, \code{\link{mu.freq}}}
 \examples{mudiff.mblacc.equalvar(len=0.2, alpha=2, beta=2)}
 \keyword{design}
@@ -36,3 +36,4 @@ The Statistician 1997;46(2):209-226.}
 \concept{Difference between two normal means}
 \concept{Mixed Bayesian/Likelihood Average Coverage Criterion MBL ACC}
 \concept{equal variances}
+\encoding{UTF-8}
